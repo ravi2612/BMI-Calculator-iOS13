@@ -1,13 +1,16 @@
 //
-//  CalculatorBrain.swift
+//  BMI.swift
 //  BMI Calculator
 //
 //  Created by raji navarro on 09/02/21.
 //  Copyright © 2021 Angela Yu. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-struct CalculatorBrain {
-    
+
+struct BMI {
+    let value: Float
+    let advice: String
+    let color: UIColor
 }
